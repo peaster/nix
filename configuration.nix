@@ -131,9 +131,6 @@
   # Install firefox.
   programs.firefox.enable = true;
 
-  # Install hyprland
-  programs.hyprland.enable = true;
-
   # Install zsh
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
