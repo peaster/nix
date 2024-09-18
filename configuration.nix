@@ -124,7 +124,7 @@
     description = "peaster";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-    #  thunderbird
+      vscode
     ];
   };
 
@@ -148,6 +148,16 @@
   oh-my-posh
   pkgs.gnome3.gnome-tweaks
   openssh
+  pkgs.gnomeExtensions.arcmenu
+  pkgs.gnomeExtensions.blur-my-shell
+  pkgs.gnomeExtensions.caffeine
+  pkgs.gnomeExtensions.clipboard-indicator
+  pkgs.gnomeExtensions.compiz-windows-effect
+  pkgs.gnomeExtensions.desktop-cube
+  pkgs.gnomeExtensions.extension-list
+  pkgs.gnomeExtensions.dash-to-dock
+  pkgs.gnomeExtensions.space-bar
+  pkgs.gnomeExtensions.vitals
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
