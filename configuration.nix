@@ -148,6 +148,8 @@
   oh-my-posh
   pkgs.gnome3.gnome-tweaks
   openssh
+  neofetch
+  safeeyes
   pkgs.gnomeExtensions.arcmenu
   pkgs.gnomeExtensions.blur-my-shell
   pkgs.gnomeExtensions.caffeine
