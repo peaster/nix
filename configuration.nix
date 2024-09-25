@@ -160,6 +160,11 @@
   pkgs.gnomeExtensions.dash-to-dock
   pkgs.gnomeExtensions.space-bar
   pkgs.gnomeExtensions.vitals
+  # wine support (32 and 64-bit) 
+  wineWowPackages.stable
+  mono
+  winetricks
+  wineWowPackages.waylandFull
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
